@@ -88,4 +88,190 @@ header nav button {
 #banner_part .overlay .banner_btn button:hover {
   background: transparent;
   border: 2px solid #1BBF00;
+}
+
+#count_part {
+  padding: 283px 0;
+  position: relative;
+  background: #F9F9FB;
+}
+#count_part img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#count_part .count_text {
+  border-right: 1px solid #4F585F;
+}
+#count_part .count_text h2 {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: "Open Sans", serif;
+  line-height: 68px;
+  color: #1BBF00;
+}
+#count_part .count_text p {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  line-height: 40px;
+  color: #141135;
+}
+#count_part .count_textlast h2 {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: "Open Sans", serif;
+  line-height: 68px;
+  color: #1BBF00;
+}
+#count_part .count_textlast p {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  line-height: 40px;
+  color: #141135;
+}
+
+#choose_part {
+  padding: 100px 0 90px;
+  background: #FDFDFD;
+  position: relative;
+}
+#choose_part img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#choose_part .choose_cart {
+  margin-bottom: 32px;
+  align-items: center;
+  border-radius: 12px;
+  transition: 0.4s;
+  width: 568px;
+}
+#choose_part .choose_cart:hover {
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 42px 28px;
+}
+#choose_part .choose_cart .effectone {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #1BBF00;
+}
+#choose_part .choose_cart .effecttwo {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #CBC8F0;
+  margin-left: -12px;
+}
+#choose_part .choose_cart p {
+  max-width: 319px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  line-height: 30px;
+  margin-left: 37px;
+}
+#choose_part .choose_cart span p {
+  max-width: 441px;
+}
+#choose_part .right_text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+}
+#choose_part .right_text p {
+  max-width: 393px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+}
+#choose_part button {
+  margin-top: 41px;
+  background: #1BBF00;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "Open Sans", serif;
+  padding: 18px 28px;
+  border: none;
+  border-radius: 100px;
+}
+#choose_part button:hover {
+  background: transparent;
+  color: #141135;
+  border: 3px solid #1BBF00;
+}
+
+#do_part {
+  background: #F6F5FF;
+}
+#do_part .cardone h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+}
+#do_part .cardone p {
+  max-width: 393px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+}
+#do_part button {
+  margin-top: 56px;
+  background: #1BBF00;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "Open Sans", serif;
+  padding: 18px 28px;
+  border: none;
+  border-radius: 100px;
+}
+#do_part button:hover {
+  background: transparent;
+  color: #141135;
+  border: 3px solid #1BBF00;
+}
+#do_part .carditem {
+  background: #FFFFFF;
+  text-align: center;
+  padding: 50px 51px;
+  border-radius: 20px;
+}
+#do_part .carditem:hover {
+  background: #6B62C5;
+  color: #FFFFFF;
+}
+#do_part .carditem h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-top: 32px;
+}
+#do_part .carditem p {
+  max-width: 257px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  margin: 20px auto;
+  font-family: "Paprika", serif;
+}
+#do_part .carditem a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Open Sans", serif;
+  padding: 8px 10px;
+  border-radius: 100px;
+  border: 1px solid #1BBF00;
 }/*# sourceMappingURL=style.css.map */

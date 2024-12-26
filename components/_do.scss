@@ -1,0 +1,62 @@
+#do_part{
+    background: #F6F5FF;
+    .cardone{
+        h3{
+            font-size: 48px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            color: #141135;
+        }
+        p{
+            max-width: 393px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            font-family: "Paprika", serif;
+        }    
+    }
+    button{
+        margin-top: 56px;
+        @include nav_btn();
+        &:hover{
+            background: transparent;
+            color: #141135;
+            border: 3px solid #1BBF00;
+        }
+    }
+    .carditem{
+        background: #FFFFFF;
+        text-align: center;
+        padding: 50px 51px;
+        border-radius: 20px;
+        &:hover{
+            background: #6B62C5;
+            color: #FFFFFF;
+        }
+        h4{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            font-family: "Open Sans", serif;
+            color: #141135; 
+            margin-top: 32px; 
+        }
+        p{
+            max-width: 257px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            margin: 20px auto;
+            font-family: "Paprika", serif;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            font-family: "Open Sans", serif;
+            padding: 8px 10px;            
+            border-radius: 100px;
+            border: 1px solid #1BBF00;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+#count_part{
+    padding: 283px 0;
+    position: relative;
+    background: #F9F9FB;
+    img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .count_text{       
+        border-right: 1px solid #4F585F;
+               h2{
+            font-size: 64px;
+            font-weight: 800;
+            font-family: "Open Sans", serif;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            font-size: 36px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            line-height: 40px;
+            color: #141135;
+        }
+        
+    }
+    .count_textlast{
+            h2{
+            font-size: 64px;
+            font-weight: 800;
+            font-family: "Open Sans", serif;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            font-size: 36px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            line-height: 40px;
+            color: #141135;
+        }
+        
+    }
+}
