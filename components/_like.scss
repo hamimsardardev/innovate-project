@@ -1,0 +1,61 @@
+#like_part{
+    background: #d8d8e6;
+    padding: 100px 0;
+    img{
+        width: 100%;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "Open Sans", serif;
+        line-height: 65px;
+        color: #030314;
+        margin-bottom: 64px;
+    }
+    .news{
+        margin-left: 80px;
+        ul{
+            list-style: none;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+            .active{
+                color: #1BBF00;
+            }
+            li{
+            font-size: 16px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            line-height: 22px;
+            letter-spacing: -1px;
+            color: #726E9E;            
+            }            
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            line-height: 55px;
+            line-height: -1.5px;
+            color: #141135;   
+            width: 555px;
+            margin: 16px 0;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            font-family: "Open Sans", serif;
+            padding: 8px 10px;            
+            border-radius: 100px;
+            border: 1px solid #1BBF00;
+            margin-top: 16px;
+        }
+    }
+    .like_item:nth-child(1n){
+        margin-bottom: 60px;
+    }
+    
+        
+    
+}

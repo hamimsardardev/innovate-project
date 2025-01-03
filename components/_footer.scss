@@ -1,0 +1,43 @@
+footer{
+    background: #48409C;
+    padding: 140px 0 57px;
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Open Sans", serif;
+        line-height: 180%;
+        color: #FEFEFE;  
+        margin-top: 44px;
+        width: 449px;
+    }
+    span{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Open Sans", serif;
+        line-height: 180%;
+        color: #FEFEFE;  
+        margin-top: 190px;
+    }
+    .footer_list{
+        h4{
+            font-size: 24px;
+            font-weight: 600;
+            font-family: "Open Sans", serif;
+            line-height: 160%;
+            color: #FEFEFE;
+        }
+        ol{
+            list-style: none;
+            margin: 0;
+            padding: 0;            
+        }
+        li{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Open Sans", serif;
+        line-height: 150%;
+        color: #FEFEFE; 
+        margin-top: 30px;
+        }
+    }
+}

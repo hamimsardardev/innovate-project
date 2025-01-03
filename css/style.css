@@ -467,4 +467,128 @@ header nav button {
   color: #726E9E;
   font-family: "Paprika", serif;
   margin-bottom: 56px;
+}
+#about_us .carousel-inner {
+  overflow: visible;
+  border-radius: 20px;
+}
+#about_us .prev_btn {
+  background: #1BBF00;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  position: absolute;
+  top: 230px;
+  left: -164px;
+}
+#about_us .next_btn {
+  background: #1BBF00;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  position: absolute;
+  right: -164px;
+  bottom: -230px;
+  top: 245px;
+}
+
+#like_part {
+  background: #d8d8e6;
+  padding: 100px 0;
+}
+#like_part img {
+  width: 100%;
+}
+#like_part h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  line-height: 65px;
+  color: #030314;
+  margin-bottom: 64px;
+}
+#like_part .news {
+  margin-left: 80px;
+}
+#like_part .news ul {
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+#like_part .news ul .active {
+  color: #1BBF00;
+}
+#like_part .news ul li {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+}
+#like_part .news h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  line-height: 55px;
+  line-height: -1.5px;
+  color: #141135;
+  width: 555px;
+  margin: 16px 0;
+}
+#like_part .news a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Open Sans", serif;
+  padding: 8px 10px;
+  border-radius: 100px;
+  border: 1px solid #1BBF00;
+  margin-top: 16px;
+}
+#like_part .like_item:nth-child(1n) {
+  margin-bottom: 60px;
+}
+
+footer {
+  background: #48409C;
+  padding: 140px 0 57px;
+}
+footer p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+  line-height: 180%;
+  color: #FEFEFE;
+  margin-top: 44px;
+  width: 449px;
+}
+footer span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+  line-height: 180%;
+  color: #FEFEFE;
+  margin-top: 190px;
+}
+footer .footer_list h4 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  line-height: 160%;
+  color: #FEFEFE;
+}
+footer .footer_list ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .footer_list li {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  line-height: 150%;
+  color: #FEFEFE;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
