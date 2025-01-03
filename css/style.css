@@ -137,7 +137,7 @@ header nav button {
   background: #FDFDFD;
   position: relative;
 }
-#choose_part img {
+#choose_part .chooseimg {
   position: absolute;
   top: 0;
   left: 0;
@@ -201,6 +201,7 @@ header nav button {
   padding: 18px 28px;
   border: none;
   border-radius: 100px;
+  transition: 0.4s;
 }
 #choose_part button:hover {
   background: transparent;
@@ -210,6 +211,7 @@ header nav button {
 
 #do_part {
   background: #F6F5FF;
+  padding: 100px 0;
 }
 #do_part .cardone h3 {
   font-size: 48px;
@@ -243,12 +245,8 @@ header nav button {
 #do_part .carditem {
   background: #FFFFFF;
   text-align: center;
-  padding: 50px 51px;
+  padding: 49px 50px;
   border-radius: 20px;
-}
-#do_part .carditem:hover {
-  background: #6B62C5;
-  color: #FFFFFF;
 }
 #do_part .carditem h4 {
   font-size: 30px;
@@ -274,4 +272,199 @@ header nav button {
   padding: 8px 10px;
   border-radius: 100px;
   border: 1px solid #1BBF00;
+  position: relative;
+}
+#do_part .carditem a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(27, 191, 0, 0.7);
+  border-radius: 100px;
+  opacity: 0;
+}
+#do_part .carditem:hover {
+  background: #6B62C5;
+}
+#do_part .carditem:hover h4, #do_part .carditem:hover p, #do_part .carditem:hover a {
+  color: #FFFFFF;
+}
+
+#real_impact {
+  padding: 100px 0;
+}
+#real_impact .title {
+  text-align: center;
+}
+#real_impact .title h4 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 23px;
+}
+#real_impact .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+  color: #726E9E;
+  width: 558px;
+  margin: 0 auto;
+}
+#real_impact .competitive {
+  margin-top: 95px;
+}
+#real_impact .competitive .analysis .textanalysis {
+  margin-left: 30px;
+}
+#real_impact .competitive .analysis .textanalysis h5 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 20px;
+}
+#real_impact .competitive .analysis .textanalysis p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+  color: #726E9E;
+  width: 343px;
+}
+#real_impact .competitive .image2 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#right_plan {
+  background: #F9F9FB;
+  padding: 90px 0 100px;
+}
+#right_plan .choose_title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  text-align: center;
+  margin-bottom: 64px;
+}
+#right_plan .price .price_card {
+  text-align: center;
+  border-radius: 20px;
+  padding: 60px 0;
+  background: #FFFFFF;
+}
+#right_plan .price .price_card:hover {
+  background: #6B62C5;
+}
+#right_plan .price .price_card:hover h5, #right_plan .price .price_card:hover p {
+  color: #FAFAFE;
+}
+#right_plan .price .price_card h5 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 20px;
+}
+#right_plan .price .price_card img {
+  z-index: 1;
+}
+#right_plan .price .price_card h6 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #1BBF00;
+  margin: 20px 0 12px;
+}
+#right_plan .price .price_card p {
+  max-width: 252px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Paprika", serif;
+  margin: 0 auto;
+}
+
+#about_us {
+  padding: 100px 0;
+  background: #F8F8FF;
+}
+#about_us .about_title {
+  text-align: center;
+}
+#about_us .about_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 152px;
+}
+#about_us .about_slider {
+  background: #FFFFFF;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.75);
+}
+#about_us .about_slider .photo {
+  height: 147px;
+  width: 147px;
+  border-radius: 50%;
+  background: url(../images/aboutphoto.png);
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#about_us .about_slider .rating ul {
+  display: flex;
+  list-style: none;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 119px;
+}
+#about_us .about_slider .rating ul i {
+  color: #FF7628;
+}
+#about_us .about_slider .rating p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  max-width: 800px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+#about_us .about_slider .designation {
+  margin-top: 48px;
+  display: grid;
+  place-items: center;
+}
+#about_us .about_slider .designation h6 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #221A2C;
+}
+#about_us .about_slider .designation p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  margin-bottom: 56px;
 }/*# sourceMappingURL=style.css.map */
