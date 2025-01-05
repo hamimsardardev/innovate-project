@@ -1,61 +1,71 @@
-#like_part{
-    background: #d8d8e6;
-    padding: 100px 0;
-    img{
-        width: 100%;
-    }
-    h2{
-        font-size: 50px;
+#like_part {
+  background: #d8d8e6;
+  padding: 100px 0;
+  img {
+    width: 100%;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Open Sans", serif;
+    line-height: 65px;
+    color: #030314;
+    margin-bottom: 64px;
+  }
+  .news {
+    margin-left: 80px;
+    ul {
+      list-style: none;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+      .active {
+        color: #1bbf00;
+      }
+      li {
+        font-size: 16px;
         font-weight: 700;
         font-family: "Open Sans", serif;
-        line-height: 65px;
-        color: #030314;
-        margin-bottom: 64px;
+        line-height: 22px;
+        letter-spacing: -1px;
+        color: #726e9e;
+      }
     }
-    .news{
-        margin-left: 80px;
-        ul{
-            list-style: none;
-            gap: 15px;
-            margin: 0;
-            padding: 0;
-            .active{
-                color: #1BBF00;
-            }
-            li{
-            font-size: 16px;
-            font-weight: 700;
-            font-family: "Open Sans", serif;
-            line-height: 22px;
-            letter-spacing: -1px;
-            color: #726E9E;            
-            }            
-        }
-        h3{
-            font-size: 30px;
-            font-weight: 700;
-            font-family: "Open Sans", serif;
-            line-height: 55px;
-            line-height: -1.5px;
-            color: #141135;   
-            width: 555px;
-            margin: 16px 0;
-        }
-        a{
-            font-size: 18px;
-            font-weight: 400;
-            color: #726E9E;
-            font-family: "Open Sans", serif;
-            padding: 8px 10px;            
-            border-radius: 100px;
-            border: 1px solid #1BBF00;
-            margin-top: 16px;
-        }
+    h3 {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Open Sans", serif;
+      line-height: 55px;
+      line-height: -1.5px;
+      color: #141135;
+      width: 555px;
+      margin: 16px 0;
     }
-    .like_item:nth-child(1n){
-        margin-bottom: 60px;
+    a {
+      font-size: 18px;
+      font-weight: 700;
+      color: #141135;
+      font-family: "Open Sans", serif;
+      padding: 8px 10px;
+      border-radius: 100px;
+      margin-top: 16px;
+      position: relative;
+      z-index: 1;
+      &::after {
+        content: "";
+        height: 40px;
+        width: 27px;
+        background: rgba(27, 191, 0, 0.3);
+        border-radius: 0 100px 100px 0;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        position: absolute;
+        z-index: -1;
+      }
     }
-    
-        
-    
+  }
+  .like_item:nth-child(1n) {
+    margin-bottom: 60px;
+  }
 }

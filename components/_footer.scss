@@ -1,43 +1,58 @@
-footer{
-    background: #48409C;
-    padding: 140px 0 57px;
-    p{
-        font-size: 18px;
-        font-weight: 400;
-        font-family: "Open Sans", serif;
-        line-height: 180%;
-        color: #FEFEFE;  
-        margin-top: 44px;
-        width: 449px;
+footer {
+  background: #48409c;
+  padding-top: 140px;
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    line-height: 180%;
+    color: #fefefe;
+    margin-top: 44px;
+    width: 449px;
+  }
+  span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    line-height: 180%;
+    color: #fefefe;
+    margin-top: 190px;
+    display: inline-block;
+  }
+  .footer_title {
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: "Open Sans", serif;
+      line-height: 160%;
+      color: #fefefe;
     }
-    span{
-        font-size: 18px;
-        font-weight: 400;
-        font-family: "Open Sans", serif;
-        line-height: 180%;
-        color: #FEFEFE;  
-        margin-top: 190px;
+  }
+  .footer_list {
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
-    .footer_list{
-        h4{
-            font-size: 24px;
-            font-weight: 600;
-            font-family: "Open Sans", serif;
-            line-height: 160%;
-            color: #FEFEFE;
-        }
-        ol{
-            list-style: none;
-            margin: 0;
-            padding: 0;            
-        }
-        li{
+    li {
+      a {
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
         font-family: "Open Sans", serif;
         line-height: 150%;
-        color: #FEFEFE; 
+        color: #fefefe;
         margin-top: 30px;
-        }
+      }
     }
+  }
+  .footer_bottom {
+    padding: 20px 0 57px;
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Open Sans", serif;
+      line-height: 180%;
+      color: #fefefe;
+    }
+  }
 }
