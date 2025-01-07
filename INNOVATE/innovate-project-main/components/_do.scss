@@ -1,0 +1,80 @@
+#do_part{
+    background: #F6F5FF;
+    padding: 100px 0;
+    .cardone{
+        h3{
+            font-size: 48px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            color: #141135;
+        }
+        p{
+            max-width: 393px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            font-family: "Paprika", serif;
+        }    
+    }
+    button{
+        margin-top: 56px;
+        @include nav_btn();       
+        &:hover{
+            background: transparent;
+            color: #141135;
+            border: 3px solid #1BBF00;            
+            }
+            
+    }
+    .carditem{
+        background: #FFFFFF;
+        text-align: center;
+        padding: 49px 50px;
+        border-radius: 20px;
+       
+        h4{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            font-family: "Open Sans", serif;
+            color: #141135; 
+            margin-top: 32px; 
+        }
+        p{
+            max-width: 257px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            margin: 20px auto;
+            font-family: "Paprika", serif;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: #726E9E;
+            font-family: "Open Sans", serif;
+            padding: 8px 10px;            
+            border-radius: 100px;
+            position: relative;
+            z-index: 1;
+            &::after{
+                content: "";
+                height: 40px;
+                width: 27px;
+                background: rgba(27, 191, 0, .3);
+                border-radius: 0 100px 100px 0;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                position: absolute;
+            }    
+        }
+        &:hover{
+            background: #6B62C5;
+            h4,p,a{
+                color: #FFFFFF;
+            }
+                     
+        }
+    }
+}

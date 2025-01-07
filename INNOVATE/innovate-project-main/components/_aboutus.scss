@@ -1,0 +1,105 @@
+#about_us{
+    padding: 100px 0;
+    background: #F8F8FF;
+    .about_title{
+        text-align: center;
+        h2{
+            font-size: 48px;
+            font-weight: 700;
+            font-family: "Open Sans", serif;
+            color: #141135;
+            margin-bottom: 152px;
+        }     
+       
+    }
+    .about_slider{
+        background: #FFFFFF;
+        border-radius: 20px;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.75);
+        box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.75);
+        .photo{
+            height: 147px;
+            width: 147px;
+            border-radius: 50%;
+            background: url(../images/aboutphoto.png);
+            text-align: center;
+            margin: 0 auto;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+        .rating{
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 7px;
+                justify-content: center;
+                padding-top: 119px;
+                i{
+                    color: #FF7628;                
+                }
+               
+            }
+            p{
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 40px;
+                color: #726E9E;
+                font-family: "Paprika", serif;
+                max-width: 800px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-top: 33px;
+                }           
+        }
+        .designation{
+            margin-top: 48px;
+            display: grid;
+            place-items: center;
+    
+            h6{
+                font-size: 25px;
+                font-weight: 700;
+                font-family: "Open Sans", serif;
+                color: #221A2C;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25px;
+                color: #726E9E;
+                font-family: "Paprika", serif;
+                margin-bottom: 56px;
+                }
+        }
+    }
+    .carousel-inner {
+      overflow: visible;
+      border-radius: 20px;
+    }
+    .prev_btn {
+        background: #1BBF00;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        position: absolute;
+        top: 230px;
+        left: -164px;
+    }
+   .next_btn {
+        background: #1BBF00;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        position: absolute;
+        right: -164px;
+        bottom: -230px;
+        top: 245px;
+    }
+}

@@ -1,0 +1,24 @@
+.conatiner{
+    max-width: 1170px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+$primary: #160C6D;
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+@mixin nav_btn($theme: #1BBF00) {
+    background: $theme;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    padding: 18px 28px;
+    border: none;
+    border-radius: 100px;
+  }
+

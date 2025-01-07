@@ -1,0 +1,77 @@
+#choose_part{
+    padding: 100px 0 90px;
+    background: #FDFDFD;
+    position: relative;
+    .chooseimg{
+        position: absolute;
+        top: 0;
+        left: 0;     
+    }
+.choose_cart{
+    margin-bottom: 32px;
+    align-items: center;    
+    border-radius: 12px;
+    transition: .4s;
+    width: 568px;  
+           
+    &:hover{
+        -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);
+         box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);        
+         padding: 42px 28px;     
+        }    
+    .effectone{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background: #1BBF00;
+    }
+    .effecttwo{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background: #CBC8F0;
+        margin-left: -12px;
+    }
+    p{
+        max-width: 319px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #726E9E;
+        font-family: "Paprika", serif;
+        line-height: 30px;
+        margin-left: 37px;
+    }
+    span{
+        p{
+            max-width: 441px;
+        }
+        
+    }
+   }
+   .right_text{
+    h3{
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Open Sans", serif;
+        color: #141135;
+    }
+    p{
+        max-width: 393px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #726E9E;
+        font-family: "Paprika", serif;
+    }    
+}
+button{
+    margin-top: 41px;
+    @include nav_btn();
+    transition: .4s;
+    &:hover{
+        background: transparent;
+        color: #141135;
+        border: 3px solid #1BBF00;
+    }
+}
+}

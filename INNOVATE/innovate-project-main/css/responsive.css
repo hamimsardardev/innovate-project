@@ -348,31 +348,4 @@ footer .footer_bottom p {
         padding: 57px 0 57px;
     }
     /* right plan end */
-    /* about us start */
-    #about_us .about_slider .rating p {
-        font-size: 20px;
-        width: auto;
-    }
-    #about_us .prev_btn {
-        height: 50px;
-        width: 50PX;
-        top: 207px;
-        left: -30px;
-    }
-    #about_us .next_btn {
-        background: #1BBF00;
-        height: 50px;
-        width: 50px;
-        right: -30px;
-        top: 205px;
-    }
-    /* about us end */
-    /* footer starr */
-    footer .footer_bottom p {
-        font-size: 14px;
-    }
-    footer p {
-        width: auto;
-    }
-    /* footer end */
 }
